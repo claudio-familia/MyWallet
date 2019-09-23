@@ -13,7 +13,7 @@ class WalletsTableSeeder extends Seeder
     {
         DB::table('wallets')->insert(
             [
-                'money'=> 2500.00, 
+                'money'=> 1000.00, 
                 'created_at' => date("Y-m-d H:i:s"),
                 'updated_at' => date("Y-m-d H:i:s")
             ]);
