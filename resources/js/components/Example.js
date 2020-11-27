@@ -86,7 +86,7 @@ class Example extends Component {
     render() {
         return (
             <div className="container">
-                <h3>MyWalletApp</h3><hr />
+                <h3>MyWalletApp - with sami</h3><hr />
                 <div className="row">
                     <div className="col-md-12 text-center">                        
                         <h1>US$ {this.state.money}</h1>
